@@ -1,2 +1,2 @@
-# EduPath# BoltZ
-An express management system
+# EduPath
+An AI-powered learning advisory system
