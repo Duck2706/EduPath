@@ -1,40 +1,55 @@
+import examGroupsData from "../data/examGroupsData";
 
 const HomepageTab = () => {
-  return (
-    <section>
-      {/* About Us Section */}
-      <div className="bg-gray-100 py-16 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Giới thiệu về chúng tôi</h2>
-          <p className="text-gray-600 text-lg mb-6">
-            EduPath là nền tảng định hướng học tập và nghề nghiệp, mang đến sự hỗ trợ cá nhân hóa 
-            và thông tin chính xác, giúp bạn tự tin chọn đúng ngành, học đúng hướng và tỏa sáng với sở trường của mình.
-          </p>
-        </div>
+ const groups = examGroupsData;
 
-        <div className="max-w-7xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg">
-            <h3 className="text-xl font-bold text-blue-600 mb-2">Tầm nhìn</h3>
-            <p className="text-gray-600">
-              Mang đến lộ trình học tập và sự nghiệp phù hợp nhất, giúp bạn phát huy tiềm năng và xây dựng tương lai vững chắc.
-            </p>
-          </div>
-          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg">
-            <h3 className="text-xl font-bold text-blue-600 mb-2">Sứ mệnh</h3>
-            <p className="text-gray-600">
-              Tư vấn thông minh, cá nhân hóa lộ trình học tập và nghề nghiệp, ứng dụng công nghệ AI tiên tiến.
-            </p>
-          </div>
-          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg">
-            <h3 className="text-xl font-bold text-blue-600 mb-2">Giá trị cốt lõi</h3>
-            <p className="text-gray-600">
-              Chính xác, đáng tin cậy, hỗ trợ toàn diện và đồng hành lâu dài cùng học sinh, sinh viên.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
+ return (
+   <section>
+     <div className="bg-gray-100 py-16 px-6 mb-12">
+       <div className="max-w-7xl mx-auto text-center">
+         <h2 className="text-3xl font-bold text-gray-800 mb-4">Giới thiệu về chúng tôi</h2>
+         <p className="text-gray-600 text-lg mb-6">
+           EduPath là nền tảng định hướng học tập và nghề nghiệp, mang đến sự hỗ trợ cá nhân hóa 
+           và thông tin chính xác, giúp bạn tự tin chọn đúng ngành, học đúng hướng và tỏa sáng với sở trường của mình.
+         </p>
+       </div>
+     </div>
 
-export default HomepageTab
+     <div className="container mx-auto p-6">
+       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Giới thiệu các khối ngành học</h2>
+       <div className="overflow-x-auto shadow-lg rounded-lg">
+         <table className="min-w-full bg-white">
+           <thead>
+             <tr className="bg-gray-100">
+               <th className="py-3 px-4 text-left">ID</th>
+               <th className="py-3 px-4 text-left">Tên Nhóm</th>
+               <th className="py-3 px-4 text-left">Môn Học</th>
+               <th className="py-3 px-4 text-left">Trường</th>
+               <th className="py-3 px-4 text-left">Chuyên Ngành</th>
+               <th className="py-3 px-4 text-left">Hành Động</th>
+             </tr>
+           </thead>
+           <tbody>
+             {groups.map((group, index) => (
+               <tr key={index} className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}>
+                 <td className="py-3 px-4 text-gray-800">{group.id}</td>
+                 <td className="py-3 px-4 text-gray-800 font-medium">{group.group}</td>
+                 <td className="py-3 px-4 text-gray-600">{group.subjects}</td>
+                 <td className="py-3 px-4 text-gray-600">{group.schools}</td>
+                 <td className="py-3 px-4 text-gray-600">{group.majors}</td>
+                 <td className="py-3 px-4">
+                   <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                     Xem chi tiết
+                   </button>
+                 </td>
+               </tr>
+             ))}
+           </tbody>
+         </table>
+       </div>
+     </div>
+   </section>
+ );
+};
+
+export default HomepageTab;

@@ -1,16 +1,18 @@
 "use client";
-import AIChat from "@components/AIChat";
+import Nav from '@components/Nav';
+import AIChat from "@components/AIChat"
 
-
-const AIChatPage = () => {
+const RecommendationPage = () => {
   return (
     <section>
-            
+      {/* Nav Section */}
+      <Nav/>
+
       {/* RecommendationTab Section */}
-        <AIChat/>
+      <AIChat/>
 
     </section>
   )
 }
 
-export default AIChatPage
+export default RecommendationPage
