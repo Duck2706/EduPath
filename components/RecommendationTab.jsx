@@ -1,109 +1,325 @@
-import { useState } from "react";
-import { Button, Card, CardBody } from "@nextui-org/react";
-import interestsData from "../data/interestsData"; 
+import React, { useState } from 'react';
+import { Input } from "@nextui-org/input";
+import { Button } from "@nextui-org/button";
+import { Select, SelectItem } from "@nextui-org/select";
+import { Checkbox } from "@nextui-org/react"; // Import Checkbox from NextUI
+import interestsData from "../data/interestsData";
 import skillsData from "../data/skillsData";
 import schoolsData from "../data/schoolsData";
 
 const RecommendationTab = () => {
+  // State cho các trường, sở thích và sở trường (cho phép chọn nhiều)
+  const [selectedSchools, setSelectedSchools] = useState({
+    "Miền Bắc": [],
+    "Miền Trung - Tây Nguyên": [],
+    "Miền Nam": [],
+    "Quân đội - Công an": []
+  });
   const [selectedInterests, setSelectedInterests] = useState([]);
-  const [selectedSkills, setSelectedSkills] = useState([]);
-  const [selectedSchool, setSelectedSchool] = useState("");
+  const [selectedStrengths, setSelectedStrengths] = useState([]);
+  
+  const [scores, setScores] = useState({
+    literature: "",
+    math: "",
+    english: "",
+    physics: "",
+    chemistry: "",
+    biology: "",
+    history: "",
+    geography: "",
+    civics: ""
+  });
+  const [hasFoundSchool, setHasFoundSchool] = useState(false);
+  const [hasNotFoundSchool, setHasNotFoundSchool] = useState(false);
 
-  const toggleSelection = (item, state, setState) => {
-    if (state.includes(item)) {
-      setState(state.filter((i) => i !== item));
-    } else {
-      setState([...state, item]);
+  // Xử lý thay đổi điểm số
+  const handleScoreChange = (subject, value) => {
+    if (value === "" || (Number(value) >= 0 && Number(value) <= 10)) {
+      setScores(prev => ({
+        ...prev,
+        [subject]: value
+      }));
+    }
+  };
+
+  // Xử lý submit form
+  const handleSubmit = () => {
+    console.log({
+      selectedSchools,
+      selectedInterests,
+      selectedStrengths,
+      scores
+    });
+    // Xử lý logic gợi ý ở đây
+  };
+
+  // Xử lý thay đổi checkbox "Đã tìm ra trường muốn theo học"
+  const handleFoundSchoolChange = (checked) => {
+    setHasFoundSchool(checked);
+    if (checked) {
+      setHasNotFoundSchool(false);
+      // Reset toàn bộ các trường đã chọn khi chọn "Đã tìm ra"
+      setSelectedSchools({
+        "Miền Bắc": [],
+        "Miền Trung - Tây Nguyên": [],
+        "Miền Nam": [],
+        "Quân đội - Công an": []
+      });
+    }
+  };
+
+  // Xử lý thay đổi checkbox "Chưa tìm ra trường muốn theo học"
+  const handleNotFoundSchoolChange = (checked) => {
+    setHasNotFoundSchool(checked);
+    if (checked) {
+      setHasFoundSchool(false);
+      // Reset toàn bộ các trường đã chọn khi chọn "Chưa tìm ra"
+      setSelectedSchools({
+        "Miền Bắc": [],
+        "Miền Trung - Tây Nguyên": [],
+        "Miền Nam": [],
+        "Quân đội - Công an": []
+      });
     }
   };
 
   return (
-    <div className="flex flex-col items-center bg-gray-50 py-10 px-6">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6">Gợi ý học tập phù hợp</h2>
-      <p className="text-gray-600 mb-10 text-center max-w-xl">
-        Chọn các sở thích, sở trường và trường học để chúng tôi gợi ý lộ trình học tập phù hợp nhất cho bạn.
-      </p>
-
-      {/* Sở thích */}
-      <Card className="mb-6 w-full max-w-4xl">
-        <CardBody>
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Sở thích</h3>
-          <div className="grid grid-cols-3 gap-4">
-            {interestsData.map((interest, index) => (
-              <Button
-                key={index}
-                size="sm"
-                className={`${
-                  selectedInterests.includes(interest)
-                    ? "bg-blue-500 text-white"
-                    : "bg-gray-200 text-gray-800"
-                } rounded-full`}
-                onClick={() =>
-                  toggleSelection(interest, selectedInterests, setSelectedInterests)
-                }
-              >
-                {interest}
-              </Button>
-            ))}
-          </div>
-        </CardBody>
-      </Card>
-
-      {/* Sở trường */}
-      <Card className="mb-6 w-full max-w-4xl">
-        <CardBody>
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Sở trường</h3>
-          <div className="grid grid-cols-3 gap-4">
-            {skillsData.map((skill, index) => (
-              <Button
-                key={index}
-                size="sm"
-                className={`${
-                  selectedSkills.includes(skill)
-                    ? "bg-blue-500 text-white"
-                    : "bg-gray-200 text-gray-800"
-                } rounded-full`}
-                onClick={() => toggleSelection(skill, selectedSkills, setSelectedSkills)}
-              >
-                {skill}
-              </Button>
-            ))}
-          </div>
-        </CardBody>
-      </Card>
-
-      {/* Trường học yêu thích */}
-      <Card className="mb-10 w-full max-w-4xl">
-        <CardBody>
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Trường học yêu thích</h3>
-          <div>
-            <select
-              className="w-full p-2 border rounded-md text-gray-800"
-              value={selectedSchool}
-              onChange={(e) => setSelectedSchool(e.target.value)}
+    <div className="w-full px-4 sm:px-6 lg:px-8 py-8 bg-white shadow-lg rounded-lg">
+      <div className="max-w-7xl mx-auto space-y-8">
+        {/* Sở thích và Sở trường */}
+        <div className="space-y-4">
+          <h2 className="text-2xl font-semibold text-gray-800">Sở thích và Sở trường</h2>
+          <div className="flex flex-wrap gap-6 justify-start">
+            {/* Sở thích cá nhân */}
+            <Select
+              label="Sở thích cá nhân"
+              placeholder="Chọn sở thích"
+              selectionMode="multiple"
+              className="flex-1 min-w-[250px]"
+              value={selectedInterests}
+              onChange={(selected) => setSelectedInterests(selected)}
             >
-              <option value="">-- Chọn trường --</option>
-              {schoolsData.map((school, index) => (
-                <option key={index} value={school}>
-                  {school}
-                </option>
+              {interestsData.map((interest) => (
+                <SelectItem key={interest} value={interest}>
+                  {interest}
+                </SelectItem>
               ))}
-            </select>
-          </div>
-        </CardBody>
-      </Card>
+            </Select>
 
-      {/* Nút Nhận Gợi Ý */}
-      <Button
-        className="bg-blue-500 text-white px-10 py-3 rounded-lg hover:bg-blue-600"
-        onClick={() => {
-          console.log("Sở thích:", selectedInterests);
-          console.log("Sở trường:", selectedSkills);
-          console.log("Trường học:", selectedSchool);
-        }}
-      >
-        Nhận gợi ý
-      </Button>
+            {/* Sở trường cá nhân */}
+            <Select
+              label="Sở trường cá nhân"
+              placeholder="Chọn sở trường"
+              selectionMode="multiple"
+              className="flex-1 min-w-[250px]"
+              value={selectedStrengths}
+              onChange={(selected) => setSelectedStrengths(selected)}
+            >
+              {skillsData.map((strength) => (
+                <SelectItem key={strength} value={strength}>
+                  {strength}
+                </SelectItem>
+              ))}
+            </Select>
+          </div>
+        </div>
+
+        {/* Điểm số các môn học */}
+        <div className="space-y-4">
+          <h2 className="text-2xl font-semibold text-gray-800">Điểm số các môn học</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Input
+              type="number"
+              label="Văn học"
+              placeholder="0-10"
+              value={scores.literature}
+              onChange={(e) => handleScoreChange('literature', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="Toán"
+              placeholder="0-10"
+              value={scores.math}
+              onChange={(e) => handleScoreChange('math', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="Tiếng Anh"
+              placeholder="0-10"
+              value={scores.english}
+              onChange={(e) => handleScoreChange('english', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="Vật lý"
+              placeholder="0-10"
+              value={scores.physics}
+              onChange={(e) => handleScoreChange('physics', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="Hóa học"
+              placeholder="0-10"
+              value={scores.chemistry}
+              onChange={(e) => handleScoreChange('chemistry', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="Sinh học"
+              placeholder="0-10"
+              value={scores.biology}
+              onChange={(e) => handleScoreChange('biology', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="Lịch sử"
+              placeholder="0-10"
+              value={scores.history}
+              onChange={(e) => handleScoreChange('history', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="Địa lý"
+              placeholder="0-10"
+              value={scores.geography}
+              onChange={(e) => handleScoreChange('geography', e.target.value)}
+              className="w-full"
+            />
+            <Input
+              type="number"
+              label="GDCD"
+              placeholder="0-10"
+              value={scores.civics}
+              onChange={(e) => handleScoreChange('civics', e.target.value)}
+              className="w-full"
+            />
+          </div>
+        </div>
+
+        {/* Chọn trường mong muốn */}
+        <div className="space-y-4">
+          <h2 className="text-2xl font-semibold text-gray-800">Chọn trường mong muốn</h2>
+          <div className="flex items-center space-x-6">
+            {/* Checkbox "Đã tìm ra trường muốn theo học" */}
+            <Checkbox
+              isSelected={hasFoundSchool}
+              onChange={(checked) => handleFoundSchoolChange(checked)}
+              color="primary"
+              className="flex items-center space-x-2"
+            >
+              <span className="text-gray-700">Đã tìm ra trường muốn theo học</span>
+            </Checkbox>
+
+            {/* Checkbox "Chưa tìm ra trường muốn theo học" */}
+            <Checkbox
+              isSelected={hasNotFoundSchool}
+              onChange={(checked) => handleNotFoundSchoolChange(checked)}
+              color="primary"
+              className="flex items-center space-x-2"
+            >
+              <span className="text-gray-700">Chưa tìm ra trường muốn theo học</span>
+            </Checkbox>
+          </div>
+
+          {hasFoundSchool && (
+            <div className="flex flex-wrap gap-6 justify-start">
+              {/* Trường đại học miền Bắc */}
+              <Select
+                label="Trường Đại học tại miền Bắc"
+                placeholder="Chọn trường ở miền Bắc"
+                selectionMode="multiple"
+                className="flex-1 min-w-[250px]"
+                value={selectedSchools["Miền Bắc"]}
+                onChange={(selected) => setSelectedSchools(prev => ({
+                  ...prev,
+                  "Miền Bắc": selected
+                }))}
+              >
+                {schoolsData["Miền Bắc"].map((uni) => (
+                  <SelectItem key={uni} value={uni}>
+                    {uni}
+                  </SelectItem>
+                ))}
+              </Select>
+
+              {/* Trường đại học miền Trung - Tây Nguyên */}
+              <Select
+                label="Trường Đại học tại miền Trung - Tây Nguyên"
+                placeholder="Chọn trường ở miền Trung - Tây Nguyên"
+                selectionMode="multiple"
+                className="flex-1 min-w-[250px]"
+                value={selectedSchools["Miền Trung - Tây Nguyên"]}
+                onChange={(selected) => setSelectedSchools(prev => ({
+                  ...prev,
+                  "Miền Trung - Tây Nguyên": selected
+                }))}
+              >
+                {schoolsData["Miền Trung"].map((uni) => (
+                  <SelectItem key={uni} value={uni}>
+                    {uni}
+                  </SelectItem>
+                ))}
+              </Select>
+
+              {/* Trường đại học miền Nam */}
+              <Select
+                label="Trường Đại học tại miền Nam"
+                placeholder="Chọn trường ở miền Nam"
+                selectionMode="multiple"
+                className="flex-1 min-w-[250px]"
+                value={selectedSchools["Miền Nam"]}
+                onChange={(selected) => setSelectedSchools(prev => ({
+                  ...prev,
+                  "Miền Nam": selected
+                }))}
+              >
+                {schoolsData["Miền Nam"].map((uni) => (
+                  <SelectItem key={uni} value={uni}>
+                    {uni}
+                  </SelectItem>
+                ))}
+              </Select>
+
+              {/* Quân đội - Công an */}
+              <Select
+                label="Quân đội - Công an"
+                placeholder="Chọn quân đội - Công an"
+                selectionMode="multiple"
+                className="flex-1 min-w-[250px]"
+                value={selectedSchools["Quân đội - Công an"]}
+                onChange={(selected) => setSelectedSchools(prev => ({
+                  ...prev,
+                  "Quân đội - Công an": selected
+                }))}
+              >
+                {schoolsData["Quân đội - Công an"].map((uni) => (
+                  <SelectItem key={uni} value={uni}>
+                    {uni}
+                  </SelectItem>
+                ))}
+              </Select>
+            </div>
+          )}
+        </div>
+
+        {/* Nút nhận gợi ý */}
+        <div className="pt-4">
+          <Button 
+            color="primary"
+            className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg"
+            onClick={handleSubmit}
+          >
+            Nhận gợi ý
+          </Button>
+        </div>
+      </div>
     </div>
   );
 };
