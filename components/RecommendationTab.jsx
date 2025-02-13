@@ -2,19 +2,10 @@ import React, { useState } from 'react';
 import { Input } from "@nextui-org/input";
 import { Button } from "@nextui-org/button";
 import { Select, SelectItem } from "@nextui-org/select";
-import { Checkbox } from "@nextui-org/react"; // Import Checkbox from NextUI
 import interestsData from "../data/interestsData";
 import skillsData from "../data/skillsData";
-import schoolsData from "../data/schoolsData";
 
 const RecommendationTab = () => {
-  // State cho các trường, sở thích và sở trường (cho phép chọn nhiều)
-  const [selectedSchools, setSelectedSchools] = useState({
-    "Miền Bắc": [],
-    "Miền Trung - Tây Nguyên": [],
-    "Miền Nam": [],
-    "Quân đội - Công an": []
-  });
   const [selectedInterests, setSelectedInterests] = useState([]);
   const [selectedStrengths, setSelectedStrengths] = useState([]);
   
@@ -29,8 +20,7 @@ const RecommendationTab = () => {
     geography: "",
     civics: ""
   });
-  const [hasFoundSchool, setHasFoundSchool] = useState(false);
-  const [hasNotFoundSchool, setHasNotFoundSchool] = useState(false);
+
 
   // Xử lý thay đổi điểm số
   const handleScoreChange = (subject, value) => {
@@ -45,42 +35,11 @@ const RecommendationTab = () => {
   // Xử lý submit form
   const handleSubmit = () => {
     console.log({
-      selectedSchools,
       selectedInterests,
       selectedStrengths,
       scores
     });
-    // Xử lý logic gợi ý ở đây
-  };
-
-  // Xử lý thay đổi checkbox "Đã tìm ra trường muốn theo học"
-  const handleFoundSchoolChange = (checked) => {
-    setHasFoundSchool(checked);
-    if (checked) {
-      setHasNotFoundSchool(false);
-      // Reset toàn bộ các trường đã chọn khi chọn "Đã tìm ra"
-      setSelectedSchools({
-        "Miền Bắc": [],
-        "Miền Trung - Tây Nguyên": [],
-        "Miền Nam": [],
-        "Quân đội - Công an": []
-      });
-    }
-  };
-
-  // Xử lý thay đổi checkbox "Chưa tìm ra trường muốn theo học"
-  const handleNotFoundSchoolChange = (checked) => {
-    setHasNotFoundSchool(checked);
-    if (checked) {
-      setHasFoundSchool(false);
-      // Reset toàn bộ các trường đã chọn khi chọn "Chưa tìm ra"
-      setSelectedSchools({
-        "Miền Bắc": [],
-        "Miền Trung - Tây Nguyên": [],
-        "Miền Nam": [],
-        "Quân đội - Công an": []
-      });
-    }
+  // Xử lý logic gợi ý ở đây
   };
 
   return (
@@ -201,112 +160,6 @@ const RecommendationTab = () => {
               className="w-full"
             />
           </div>
-        </div>
-
-        {/* Chọn trường mong muốn */}
-        <div className="space-y-4">
-          <h2 className="text-2xl font-semibold text-gray-800">Chọn trường mong muốn</h2>
-          <div className="flex items-center space-x-6">
-            {/* Checkbox "Đã tìm ra trường muốn theo học" */}
-            <Checkbox
-              isSelected={hasFoundSchool}
-              onChange={(checked) => handleFoundSchoolChange(checked)}
-              color="primary"
-              className="flex items-center space-x-2"
-            >
-              <span className="text-gray-700">Đã tìm ra trường muốn theo học</span>
-            </Checkbox>
-
-            {/* Checkbox "Chưa tìm ra trường muốn theo học" */}
-            <Checkbox
-              isSelected={hasNotFoundSchool}
-              onChange={(checked) => handleNotFoundSchoolChange(checked)}
-              color="primary"
-              className="flex items-center space-x-2"
-            >
-              <span className="text-gray-700">Chưa tìm ra trường muốn theo học</span>
-            </Checkbox>
-          </div>
-
-          {hasFoundSchool && (
-            <div className="flex flex-wrap gap-6 justify-start">
-              {/* Trường đại học miền Bắc */}
-              <Select
-                label="Trường Đại học tại miền Bắc"
-                placeholder="Chọn trường ở miền Bắc"
-                selectionMode="multiple"
-                className="flex-1 min-w-[250px]"
-                value={selectedSchools["Miền Bắc"]}
-                onChange={(selected) => setSelectedSchools(prev => ({
-                  ...prev,
-                  "Miền Bắc": selected
-                }))}
-              >
-                {schoolsData["Miền Bắc"].map((uni) => (
-                  <SelectItem key={uni} value={uni}>
-                    {uni}
-                  </SelectItem>
-                ))}
-              </Select>
-
-              {/* Trường đại học miền Trung - Tây Nguyên */}
-              <Select
-                label="Trường Đại học tại miền Trung - Tây Nguyên"
-                placeholder="Chọn trường ở miền Trung - Tây Nguyên"
-                selectionMode="multiple"
-                className="flex-1 min-w-[250px]"
-                value={selectedSchools["Miền Trung - Tây Nguyên"]}
-                onChange={(selected) => setSelectedSchools(prev => ({
-                  ...prev,
-                  "Miền Trung - Tây Nguyên": selected
-                }))}
-              >
-                {schoolsData["Miền Trung"].map((uni) => (
-                  <SelectItem key={uni} value={uni}>
-                    {uni}
-                  </SelectItem>
-                ))}
-              </Select>
-
-              {/* Trường đại học miền Nam */}
-              <Select
-                label="Trường Đại học tại miền Nam"
-                placeholder="Chọn trường ở miền Nam"
-                selectionMode="multiple"
-                className="flex-1 min-w-[250px]"
-                value={selectedSchools["Miền Nam"]}
-                onChange={(selected) => setSelectedSchools(prev => ({
-                  ...prev,
-                  "Miền Nam": selected
-                }))}
-              >
-                {schoolsData["Miền Nam"].map((uni) => (
-                  <SelectItem key={uni} value={uni}>
-                    {uni}
-                  </SelectItem>
-                ))}
-              </Select>
-
-              {/* Quân đội - Công an */}
-              <Select
-                label="Quân đội - Công an"
-                placeholder="Chọn quân đội - Công an"
-                selectionMode="multiple"
-                className="flex-1 min-w-[250px]"
-                value={selectedSchools["Quân đội - Công an"]}
-                onChange={(selected) => setSelectedSchools(prev => ({
-                  ...prev,
-                  "Quân đội - Công an": selected
-                }))}
-              >
-                {schoolsData["Quân đội - Công an"].map((uni) => (
-                  <SelectItem key={uni} value={uni}>
-                    {uni}
-                  </SelectItem>
-                ))}
-              </Select>
-            </div>
-          )}
         </div>
 
         {/* Nút nhận gợi ý */}
