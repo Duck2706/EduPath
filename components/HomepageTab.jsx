@@ -21,12 +21,9 @@ const HomepageTab = () => {
          <table className="min-w-full bg-white">
            <thead>
              <tr className="bg-gray-100">
-               <th className="py-3 px-4 text-left">ID</th>
+               <th className="py-3 px-4 text-left">STT</th>
                <th className="py-3 px-4 text-left">Tên Nhóm</th>
                <th className="py-3 px-4 text-left">Môn Học</th>
-               <th className="py-3 px-4 text-left">Trường</th>
-               <th className="py-3 px-4 text-left">Chuyên Ngành</th>
-               <th className="py-3 px-4 text-left">Hành Động</th>
              </tr>
            </thead>
            <tbody>
@@ -35,13 +32,6 @@ const HomepageTab = () => {
                  <td className="py-3 px-4 text-gray-800">{group.id}</td>
                  <td className="py-3 px-4 text-gray-800 font-medium">{group.group}</td>
                  <td className="py-3 px-4 text-gray-600">{group.subjects}</td>
-                 <td className="py-3 px-4 text-gray-600">{group.schools}</td>
-                 <td className="py-3 px-4 text-gray-600">{group.majors}</td>
-                 <td className="py-3 px-4">
-                   <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                     Xem chi tiết
-                   </button>
-                 </td>
                </tr>
              ))}
            </tbody>

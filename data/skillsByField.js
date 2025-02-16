@@ -1,7 +1,7 @@
 const skillsByField = {
   "Báo chí - Marketing - Quảng cáo - PR": [
     "Khả năng diễn đạt tốt", "Khả năng giao tiếp tốt", "Khả năng phân tích tốt",
-    "Sáng tạo", "Tư duy logic"
+    "Sáng tạo", "Tư duy logic", "Tư duy phản biện"
   ],
   "Bác sĩ thú y": [
     "Tỉ mỉ, cẩn thận", "Khả năng quan sát tốt", "Khả năng phân tích tốt", "Có trách nhiệm"
@@ -53,7 +53,7 @@ const skillsByField = {
   ],
 
   "Luật - Tòa án": [
-    "Tư duy logic", "Khả năng giao tiếp tốt", "Khả năng diễn đạt tốt", "Khả năng phân tích tốt", "Khả năng ghi nhớ tốt"
+    "Tư duy logic", "Khả năng giao tiếp tốt", "Khả năng diễn đạt tốt", "Khả năng phân tích tốt", "Khả năng ghi nhớ tốt", "Tư duy phản biện"
   ],
 
   "Mỏ - Địa chất": [
@@ -77,7 +77,7 @@ const skillsByField = {
   ],
 
   "Sư phạm - Giáo dục": [
-    "Khả năng diễn đạt tốt", "Khả năng giao tiếp tốt", "Khả năng phân tích tốt", "Khả năng quản lý tốt", "Sáng tạo", "Tỉ mỉ, cẩn thận"
+    "Khả năng diễn đạt tốt", "Khả năng giao tiếp tốt", "Khả năng phân tích tốt", "Khả năng quản lý tốt", "Sáng tạo", "Tỉ mỉ, cẩn thận", "Tư duy phản biện"
   ],
 
   "Tài chính - Ngân hàng - Bảo hiểm": [
@@ -89,7 +89,7 @@ const skillsByField = {
   ],
 
   "Tâm lý": [
-    "Khả năng giao tiếp tốt", "Khả năng phân tích tốt", "Khả năng diễn đạt tốt", "Tư duy logic"
+    "Khả năng giao tiếp tốt", "Khả năng phân tích tốt", "Khả năng diễn đạt tốt", "Tư duy logic", "Tư duy phản biện"
   ],
 
   "Thể dục - Thể thao": [
@@ -114,7 +114,7 @@ const skillsByField = {
   ],
 
   "Văn hóa - Chính trị - Khoa học xã hội": [
-    "Hiểu biết về văn hóa", "Khả năng giao tiếp tốt", "Khả năng diễn đạt tốt", "Khả năng quản lý tốt"
+    "Hiểu biết về văn hóa", "Khả năng giao tiếp tốt", "Khả năng diễn đạt tốt", "Khả năng quản lý tốt", "Tư duy phản biện"
   ],
 
   "Xây dựng - Kiến trúc - Giao thông": [
