@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "@nextui-org/button";
+import {Button} from "@heroui/button";
 import MoreLessChatHistory from "../public/assets/icons/more_less_chat_history";
 import NewChat from "../public/assets/icons/new_chat";
 
