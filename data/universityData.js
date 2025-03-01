@@ -106,7 +106,7 @@ const universityData = {
             "Mã ngành": "EP01",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "36.25",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -178,7 +178,7 @@ const universityData = {
             "Mã ngành": "POHE5",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "36.59",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -196,7 +196,7 @@ const universityData = {
             "Mã ngành": "EP14",
             "Tổ hợp môn": "A01; D01; D07; D10",
             "Điểm chuẩn 2024": "36.42",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -277,7 +277,7 @@ const universityData = {
             "Mã ngành": "EP18",
             "Tổ hợp môn": "A01; D01; D09; D10",
             "Điểm chuẩn 2024": "36.55",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -286,7 +286,7 @@ const universityData = {
             "Mã ngành": "POHE6",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "35.88",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -304,7 +304,7 @@ const universityData = {
             "Mã ngành": "POHE7",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "36.05",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -403,7 +403,7 @@ const universityData = {
             "Mã ngành": "POHE3",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "37.49",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -421,7 +421,7 @@ const universityData = {
             "Mã ngành": "7220201",
             "Tổ hợp môn": "A01; D01; D09; D10",
             "Điểm chuẩn 2024": "35.6",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -448,7 +448,7 @@ const universityData = {
             "Mã ngành": "POHE2",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "35.75",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -466,7 +466,7 @@ const universityData = {
             "Mã ngành": "EP11",
             "Tổ hợp môn": "A01; D01; D09; D10",
             "Điểm chuẩn 2024": "35.65",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -475,7 +475,7 @@ const universityData = {
             "Mã ngành": "POHE1",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "35.8",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -493,7 +493,7 @@ const universityData = {
             "Mã ngành": "POHE4",
             "Tổ hợp môn": "A01; D01; D07; D09",
             "Điểm chuẩn 2024": "35.26",
-            "Ghi chú": "Môn Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Kinh Tế Quốc Dân",
@@ -1145,7 +1145,7 @@ const universityData = {
             "Mã ngành": "7340301C21",
             "Tổ hợp môn": "A01; D01; D07",
             "Điểm chuẩn 2024": "34.35",
-            "Ghi chú": "CT định hướng CCQT, Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Học Viện Tài chính",
@@ -1154,7 +1154,7 @@ const universityData = {
             "Mã ngành": "7340301C22",
             "Tổ hợp môn": "A01; D01; D07",
             "Điểm chuẩn 2024": "35.7",
-            "Ghi chú": "CT định hướng CCQT, Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Học Viện Tài chính",
@@ -1208,7 +1208,7 @@ const universityData = {
             "Mã ngành": "7340201C09",
             "Tổ hợp môn": "A01; D01; D07",
             "Điểm chuẩn 2024": "35.36",
-            "Ghi chú": "CT định hướng CCQT, Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Học Viện Tài chính",
@@ -1226,7 +1226,7 @@ const universityData = {
             "Mã ngành": "7340401C35",
             "Tổ hợp môn": "A01; D01; D07",
             "Điểm chuẩn 2024": "35.31",
-            "Ghi chú": "CT định hướng CCQT, Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Học Viện Tài chính",
@@ -1244,7 +1244,7 @@ const universityData = {
             "Mã ngành": "7340201C06",
             "Tổ hợp môn": "A01; D01; D07",
             "Điểm chuẩn 2024": "36.15",
-            "Ghi chú": "CT định hướng CCQT, Tiếng Anh hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         }
     ],
     "Học Viện Ngân Hàng": [
@@ -4567,7 +4567,7 @@ const universityData = {
             "Mã ngành": "7340301",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "25.08",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4576,7 +4576,7 @@ const universityData = {
             "Mã ngành": "7340201",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "32.53",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4594,7 +4594,7 @@ const universityData = {
             "Mã ngành": "7340101",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "30.72",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4603,7 +4603,7 @@ const universityData = {
             "Mã ngành": "7320109",
             "Tổ hợp môn": "D01; D03",
             "Điểm chuẩn 2024": "31.05",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4639,7 +4639,7 @@ const universityData = {
             "Mã ngành": "7340115",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "33.93",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4648,7 +4648,7 @@ const universityData = {
             "Mã ngành": "7220201",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "35.43",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4657,7 +4657,7 @@ const universityData = {
             "Mã ngành": "7220201 TT",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "33",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4666,7 +4666,7 @@ const universityData = {
             "Mã ngành": "7220210",
             "Tổ hợp môn": "D01; DD2",
             "Điểm chuẩn 2024": "34.59",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Hàn hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4675,7 +4675,7 @@ const universityData = {
             "Mã ngành": "7220204",
             "Tổ hợp môn": "D01; D04",
             "Điểm chuẩn 2024": "35.8",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Trung hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4684,7 +4684,7 @@ const universityData = {
             "Mã ngành": "7220204 TT",
             "Tổ hợp môn": "D01; D04",
             "Điểm chuẩn 2024": "34.95",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Trung hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4693,7 +4693,7 @@ const universityData = {
             "Mã ngành": "7220205",
             "Tổ hợp môn": "D01; D05",
             "Điểm chuẩn 2024": "34.2",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Đức hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4702,7 +4702,7 @@ const universityData = {
             "Mã ngành": "7220202",
             "Tổ hợp môn": "D01; D02",
             "Điểm chuẩn 2024": "32",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Nga hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4711,7 +4711,7 @@ const universityData = {
             "Mã ngành": "7220209",
             "Tổ hợp môn": "D01; D06",
             "Điểm chuẩn 2024": "34.45",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Nhật hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4720,7 +4720,7 @@ const universityData = {
             "Mã ngành": "7220203",
             "Tổ hợp môn": "D01; D03",
             "Điểm chuẩn 2024": "32.99",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Nhật hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4729,7 +4729,7 @@ const universityData = {
             "Mã ngành": "7220207",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "31.4",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4738,7 +4738,7 @@ const universityData = {
             "Mã ngành": "7220208",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "32.41",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4747,7 +4747,7 @@ const universityData = {
             "Mã ngành": "7220208 TT",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "30.48",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4756,7 +4756,7 @@ const universityData = {
             "Mã ngành": "7810103",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "33.04",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4765,7 +4765,7 @@ const universityData = {
             "Mã ngành": "7810103 TT",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "32.11",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4774,7 +4774,7 @@ const universityData = {
             "Mã ngành": "7310601",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "25.27",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         },
         {
             "Trường đào tạo": "Trường Đại Học Hà Nội",
@@ -4783,7 +4783,7 @@ const universityData = {
             "Mã ngành": "7310111",
             "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "25.78",
-            "Ghi chú": "Môn ngoại ngữ nhân hệ số 2, thang điểm 40"
+            "Ghi chú": "Tiếng Anh hệ số 2, thang điểm 40"
         }
     ],
     "Trường Đại học Thủ Dầu Một": [
@@ -5264,7 +5264,7 @@ const universityData = {
             "Mã ngành": "7220201",
             "Tổ hợp môn": "D01; D78; D90",
             "Điểm chuẩn 2024": "24.58",
-            "Ghi chú": "Ngoại ngữ hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Thăng Long",
@@ -5273,7 +5273,7 @@ const universityData = {
             "Mã ngành": "7220210",
             "Tổ hợp môn": "D01; DD2; D78; D90",
             "Điểm chuẩn 2024": "24.75",
-            "Ghi chú": "DD2 ngoại ngữ hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Hàn hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Thăng Long",
@@ -5282,7 +5282,7 @@ const universityData = {
             "Mã ngành": "7220204",
             "Tổ hợp môn": "D01; D04; D78; D90",
             "Điểm chuẩn 2024": "25.4",
-            "Ghi chú": "D04 ngoại ngữ hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Trung hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Thăng Long",
@@ -5291,7 +5291,7 @@ const universityData = {
             "Mã ngành": "7220209",
             "Tổ hợp môn": "D01; D06; D78; D90",
             "Điểm chuẩn 2024": "23.02",
-            "Ghi chú": "D06 ngoại ngữ hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2, Tiếng Nhật hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Thăng Long",
@@ -10573,7 +10573,7 @@ const universityData = {
             "Mã ngành": "7220201",
             "Tổ hợp môn": "D01; D09; D14; D15",
             "Điểm chuẩn 2024": "34.5",
-            "Ghi chú": "Thang điểm 40, TA nhân hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM",
@@ -10582,7 +10582,7 @@ const universityData = {
             "Mã ngành": "7220201_WE2",
             "Tổ hợp môn": "D01; D09; D14; D15",
             "Điểm chuẩn 2024": "30",
-            "Ghi chú": "Thang điểm 40, TA nhân hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM",
@@ -10591,7 +10591,7 @@ const universityData = {
             "Mã ngành": "7220201_WE3",
             "Tổ hợp môn": "D01; D09; D14; D15",
             "Điểm chuẩn 2024": "30",
-            "Ghi chú": "Thang điểm 40, TA nhân hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM",
@@ -10600,7 +10600,7 @@ const universityData = {
             "Mã ngành": "7220201_WE4",
             "Tổ hợp môn": "D01; D09; D14; D15",
             "Điểm chuẩn 2024": "30",
-            "Ghi chú": "Thang điểm 40, TA nhân hệ số 2"
+            "Ghi chú": "Tiếng Anh hệ số 2"
         },
         {
             "Trường đào tạo": "Trường Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM",
@@ -19379,7 +19379,7 @@ const universityData = {
             "Mã ngành": "7580101",
             "Tổ hợp môn": "V00; V01; M02; M04",
             "Điểm chuẩn 2024": "22",
-            "Ghi chú": "Môn Vẽ nhân hệ số 2"
+            "Ghi chú": "Môn Vẽ hệ số 2"
         },
         {
             "Trường đào tạo": "Đại Học Duy Tân",
@@ -27470,7 +27470,7 @@ const universityData = {
             "Mã ngành": "7220201",
             "Tổ hợp môn": "D01; D09; D14; D15",
             "Điểm chuẩn 2024": "18",
-            "Ghi chú": "Tiếng Anh nhân 2; điểm Tiếng Anh chưa nhân hệ số đạt từ 5.0 điểm trở lên."
+            "Ghi chú": "Tiếng Anh hệ số 2; điểm Tiếng Anh chưa nhân hệ số đạt từ 5.0 điểm trở lên."
         },
         {
             "Trường đào tạo": "Trường Đại Học Hoa Sen",
@@ -32114,7 +32114,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Kế toán - Kiểm toán",
             "Ngành đào tạo": "Kế toán",
             "Mã ngành": "7340301",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, D01, C00, D14, D15",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32123,7 +32123,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Tài chính - Ngân hàng - Bảo hiểm",
             "Ngành đào tạo": "Tài chính - Ngân hàng",
             "Mã ngành": "7340201",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, D01, C00, D14, D15",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32132,7 +32132,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Kinh tế - Quản trị kinh doanh - Thương Mại",
             "Ngành đào tạo": "Quản trị kinh doanh",
             "Mã ngành": "7340101",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, D01, C00, D14, D15",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32141,7 +32141,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Công nghệ thông tin - Tin học",
             "Ngành đào tạo": "Công nghệ thông tin",
             "Mã ngành": "7480201",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C01, D01",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32150,7 +32150,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Y - Dược",
             "Ngành đào tạo": "Dược học",
             "Mã ngành": "7720201",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A02, A03, B00, B03, B08, D07",
             "Điểm chuẩn 2024": "21",
             "Ghi chú": ""
         },
@@ -32159,7 +32159,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Y - Dược",
             "Ngành đào tạo": "Điều dưỡng",
             "Mã ngành": "7720301",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A02, A03, B00, B03, B08, D07",
             "Điểm chuẩn 2024": "19",
             "Ghi chú": ""
         },
@@ -32168,7 +32168,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Xây dựng - Kiến trúc - Giao thông",
             "Ngành đào tạo": "Kỹ thuật xây dựng",
             "Mã ngành": "7580201",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C01, D01",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32177,7 +32177,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Ngôn ngữ Anh",
             "Mã ngành": "7220201",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, D01, C00, D14, D15",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32186,7 +32186,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Du lịch-Khách sạn",
             "Ngành đào tạo": "Quản trị dịch vụ du lịch và lữ hành",
             "Mã ngành": "7810103",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C00, C01, D01, D10, D14, D15",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32195,7 +32195,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Du lịch-Khách sạn",
             "Ngành đào tạo": "Quản trị khách sạn",
             "Mã ngành": "7810201",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C00, C01, D01, D10, D14, D15",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32204,7 +32204,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ô tô - Cơ khí - Chế tạo",
             "Ngành đào tạo": "Công nghệ kỹ thuật ô tô",
             "Mã ngành": "7510205",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C01, D01",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32213,7 +32213,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ô tô - Cơ khí - Chế tạo",
             "Ngành đào tạo": "Công nghệ chế tạo máy",
             "Mã ngành": "7510202",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C01, D01",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32222,7 +32222,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Điện lạnh - Điện tử - Điện - Tự động hóa",
             "Ngành đào tạo": "Công nghệ kỹ thuật điện, điện tử",
             "Mã ngành": "7510301",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C01, D01",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32231,7 +32231,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Điện lạnh - Điện tử - Điện - Tự động hóa",
             "Ngành đào tạo": "Công nghệ kỹ thuật điều khiển và tự động hóa",
             "Mã ngành": "7510303",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C01, D01",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32240,7 +32240,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Điện lạnh - Điện tử - Điện - Tự động hóa",
             "Ngành đào tạo": "Công nghệ kỹ thuật nhiệt",
             "Mã ngành": "7510206",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, C01, D01",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32249,7 +32249,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Công nghệ chế biến thực phẩm",
             "Ngành đào tạo": "Công nghệ Thực phẩm",
             "Mã ngành": "7540101",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A02, B00, C01, C08, D07, D08, D13",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         },
@@ -32258,7 +32258,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Luật - Tòa án",
             "Ngành đào tạo": "Luật",
             "Mã ngành": "7380101",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, A03, D01, C00, D14, D15",
             "Điểm chuẩn 2024": "17",
             "Ghi chú": ""
         }
@@ -45815,7 +45815,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Thương mại quốc tế",
             "Mã ngành": "KTEH1.2",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D02, D03, D04, D06, D07",
             "Điểm chuẩn 2024": "28",
             "Ghi chú": ""
         },
@@ -45824,7 +45824,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Anh Thương mại",
             "Mã ngành": "NNAH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "27",
             "Ghi chú": ""
         },
@@ -45833,7 +45833,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Anh Thương mại",
             "Mã ngành": "NNAH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D01",
             "Điểm chuẩn 2024": "27",
             "Ghi chú": ""
         },
@@ -45842,7 +45842,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Nhật thương mại",
             "Mã ngành": "NNNH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D01, D06",
             "Điểm chuẩn 2024": "26",
             "Ghi chú": ""
         },
@@ -45851,7 +45851,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Nhật thương mại",
             "Mã ngành": "NNNH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D06",
             "Điểm chuẩn 2024": "26",
             "Ghi chú": ""
         },
@@ -45860,7 +45860,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Pháp thương mại",
             "Mã ngành": "NNPH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D01, D03",
             "Điểm chuẩn 2024": "26",
             "Ghi chú": ""
         },
@@ -45869,7 +45869,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Pháp thương mại",
             "Mã ngành": "NNPH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D01, D03",
             "Điểm chuẩn 2024": "26",
             "Ghi chú": ""
         },
@@ -45878,7 +45878,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Trung Thương mại",
             "Mã ngành": "NNTH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D01, D04",
             "Điểm chuẩn 2024": "28.5",
             "Ghi chú": ""
         },
@@ -45887,7 +45887,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại giao - Ngoại ngữ",
             "Ngành đào tạo": "Tiếng Trung Thương mại",
             "Mã ngành": "NNTH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "D01, D04",
             "Điểm chuẩn 2024": "28.5",
             "Ghi chú": ""
         },
@@ -45896,7 +45896,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh doanh quốc tế",
             "Mã ngành": "KDQH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D06, D07",
             "Điểm chuẩn 2024": "28.1",
             "Ghi chú": ""
         },
@@ -45905,7 +45905,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh doanh quốc tế",
             "Mã ngành": "KDQH4.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A01, D01, D07",
             "Điểm chuẩn 2024": "28.1",
             "Ghi chú": ""
         },
@@ -45914,7 +45914,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh doanh quốc tế",
             "Mã ngành": "KTQH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D03, D07",
             "Điểm chuẩn 2024": "28",
             "Ghi chú": ""
         },
@@ -45923,7 +45923,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh doanh quốc tế",
             "Mã ngành": "KTQH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D07",
             "Điểm chuẩn 2024": "28",
             "Ghi chú": ""
         },
@@ -45932,7 +45932,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh tế đối ngoại",
             "Mã ngành": "KTEH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D02, D03, D04, D06, D07",
             "Điểm chuẩn 2024": "28",
             "Ghi chú": ""
         },
@@ -45941,7 +45941,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh tế đối ngoại",
             "Mã ngành": "KTEH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A01, D01, D07",
             "Điểm chuẩn 2024": "28",
             "Ghi chú": ""
         },
@@ -45950,7 +45950,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh tế đối ngoại",
             "Mã ngành": "KTEH4.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A01, D01, D07",
             "Điểm chuẩn 2024": "28",
             "Ghi chú": ""
         },
@@ -45959,7 +45959,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Kinh tế đối ngoại",
             "Mã ngành": "KTQH1.2",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D03, D07",
             "Điểm chuẩn 2024": "28",
             "Ghi chú": ""
         },
@@ -45968,7 +45968,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Tài chính quốc tế",
             "Mã ngành": "TCHH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D07",
             "Điểm chuẩn 2024": "27.8",
             "Ghi chú": ""
         },
@@ -45977,7 +45977,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế",
             "Ngành đào tạo": "Quản trị và Kinh doanh Quốc tế",
             "Mã ngành": "QTKH1.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A01, D01, D07",
             "Điểm chuẩn 2024": "28.1",
             "Ghi chú": ""
         },
@@ -45986,7 +45986,7 @@ const universityData = {
             "Nhóm ngành đào tạo": "Du lịch-Khách sạn",
             "Ngành đào tạo": "Quản trị khách sạn",
             "Mã ngành": "QKSH2.1",
-            "Tổ hợp môn": NaN,
+            "Tổ hợp môn": "A00, A01, D01, D07",
             "Điểm chuẩn 2024": "28.1",
             "Ghi chú": ""
         },

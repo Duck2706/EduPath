@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from 'react';
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/navbar";
-import { Link } from "@nextui-org/link";
-import { Image } from "@nextui-org/image";
+import {  Navbar,   NavbarBrand,   NavbarContent,   NavbarItem} from "@heroui/navbar";
+import {Link} from "@heroui/link";
+import {Image} from "@heroui/image";
 
 const Nav = () => {
   const [activeItem, setActiveItem] = useState('');
