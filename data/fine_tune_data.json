@@ -1,0 +1,50 @@
+[
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "Mình thích đọc sách, viết văn, nghiên cứu triết học. Sở trường của mình là lập luận, phân tích vấn đề và viết bài. Bạn có thể tư vấn ngành học nào phù hợp với mình không?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bạn có thể xem xét ngành Báo chí tại Đại Học Khoa Học Xã Hội và Nhân Văn (mã ngành 7320101, tổ hợp C00, điểm chuẩn 27.5). Ngành này giúp bạn phát huy khả năng viết lách và phân tích thông tin. Ngoài ra, ngành Triết học cũng là một lựa chọn phù hợp nếu bạn yêu thích nghiên cứu sâu hơn về tư tưởng và lập luận."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "Mình thích lập trình, tạo ra các phần mềm hữu ích và khám phá công nghệ mới. Mình học tốt Toán và Khoa học máy tính. Theo bạn, ngành nào phù hợp với mình?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ngành Công nghệ thông tin tại Đại Học Bách Khoa Hà Nội (mã ngành IT1, tổ hợp A00; A01, điểm chuẩn 28.53) rất phù hợp với bạn. Nếu bạn quan tâm đến trí tuệ nhân tạo, ngành Khoa học dữ liệu và Trí tuệ nhân tạo cũng là một lựa chọn tuyệt vời."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "Tôi thích nấu ăn, thử nghiệm các công thức mới và tìm hiểu về ẩm thực các nước. Tôi cũng giỏi trong việc sáng tạo và quản lý bếp. Theo bạn, tôi nên chọn ngành nào?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bạn có thể theo học ngành Quản trị dịch vụ du lịch và lữ hành tại Đại Học Kinh Tế Quốc Dân (mã ngành 7810103, điểm chuẩn 26.71) hoặc ngành Công nghệ thực phẩm tại Đại Học Bách Khoa Hà Nội (mã ngành BF2, tổ hợp A00; B00; D07, điểm chuẩn 24.54). Ngành này giúp bạn phát triển chuyên môn trong lĩnh vực ẩm thực và sáng tạo món ăn mới."
+      }
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "role": "user",
+        "content": "Mình yêu thích hội họa, vẽ tranh và thiết kế đồ họa. Ngoài ra, mình có khả năng sáng tạo và tư duy thẩm mỹ tốt. Mình nên theo học ngành nào?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bạn có thể theo học ngành Thiết kế đồ họa tại Đại Học Mỹ Thuật Công Nghiệp (mã ngành 7210403, tổ hợp H00; H01, điểm chuẩn 24.75). Nếu bạn quan tâm đến công nghệ, ngành Thiết kế truyền thông số cũng là một lựa chọn phù hợp."
+      }
+    ]
+  }
+]

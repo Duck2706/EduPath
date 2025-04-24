@@ -1,0 +1,72 @@
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPTNeoForCausalLM"
+  ],
+  "attention_dropout": 0,
+  "attention_layers": [
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global",
+    "global"
+  ],
+  "attention_types": [
+    [
+      [
+        "global"
+      ],
+      24
+    ]
+  ],
+  "bos_token_id": 0,
+  "classifier_dropout": 0.1,
+  "embed_dropout": 0,
+  "eos_token_id": 0,
+  "gradient_checkpointing": false,
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": null,
+  "layer_norm_epsilon": 1e-05,
+  "max_position_embeddings": 2048,
+  "model_type": "gpt_neo",
+  "num_heads": 32,
+  "num_layers": 24,
+  "resid_dropout": 0,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 150,
+      "temperature": 0.9
+    }
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.50.0.dev0",
+  "use_cache": true,
+  "vocab_size": 60000,
+  "window_size": 256
+}
